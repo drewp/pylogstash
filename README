@@ -8,7 +8,7 @@ from the LogRecord will be included in the @fields section of the event.
 
 to configure:
 
-handler = LogstashHandler(connect_string=['tcp://127.0.0.1:2120'], fields=["thread"])
+handler = LogstashHandler(connect_string='tcp://127.0.0.1:2120', fields=["thread"])
 
 This will configure the handler to publish to 127.0.0.1 port 2120.  Multiple hosts can be specified.
 
